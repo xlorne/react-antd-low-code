@@ -2,6 +2,13 @@ import { FieldNode } from '../types'
 
 const fields: FieldNode[] = [
   {
+    type: 'Coding',
+    module: 'antd',
+    props: {
+      children: 'Coding',
+    },
+  },
+  {
     type: 'Button',
     module: 'antd',
     props: {

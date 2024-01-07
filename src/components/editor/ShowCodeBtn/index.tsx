@@ -77,10 +77,10 @@ export default function CodeBox() {
           theme="xcode"
           width="100%"
           height="560px"
-          onChange={() => {}}
+          onChange={(value) => {setCode(value)}}
           value={code}
           name="code"
-          showPrintMargin={false}
+          showPrintMargin={true}
           fontSize={14}
           setOptions={{
             enableBasicAutocompletion: true,

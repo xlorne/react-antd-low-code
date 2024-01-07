@@ -10,6 +10,8 @@
 
 ## 开发
 
+node 16 version
+
 ## 环境准备
 复制 `.env.example` 为 `.env` 文件，并修改相关配置
 

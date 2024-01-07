@@ -1,6 +1,13 @@
 import { Field } from '../types'
 
 const editFields: Record<string, Field[]> = {
+  Coding: [
+    {
+      key: 'children',
+      name: '文字',
+      type: 'Text',
+    }
+  ],
   Button: [
     {
       key: 'children',
