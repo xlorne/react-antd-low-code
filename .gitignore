@@ -37,3 +37,4 @@ yarn-error.log*
 
 *.sql
 docker-compose.yml
+/mysql

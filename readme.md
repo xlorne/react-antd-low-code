@@ -10,6 +10,9 @@
 
 ## 开发
 
+## 环境准备
+复制 `.env.example` 为 `.env` 文件，并修改相关配置
+
 安装 docker-compose
 
 ```bash
@@ -36,10 +39,6 @@ yarn dev
 yarn build
 yarn start
 ```
-
-## 环境变量
-
-复制 `.env.example` 为 `.env` 文件，并修改相关配置
 
 ## 部署
 
